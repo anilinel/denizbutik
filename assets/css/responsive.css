@@ -1,0 +1,704 @@
+@media screen and (min-width:1025px){
+    #owl-mobile{
+        display: none;
+    }
+
+    #sellermobile{
+        display: none;
+    }
+
+    #mobileFooter{
+        display: none;
+    }
+
+    #mySidenav{
+        display: none;
+    }
+
+    #sidenavMobile{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    #topbar{
+        display: none;
+    }
+
+    #header{
+        display: none;
+    }
+
+    #navmenu{
+        display: none;
+    }
+
+    #discount{
+        padding: 10px 0;
+    }
+
+    .shopping-image{
+        margin-bottom: 10px;
+    }
+
+    #slider {
+        margin: 0px 0 10px 0;
+    }
+
+    .slider-area{
+        margin-bottom: 10px;
+    }
+
+    #slider{
+        display: none;
+    }
+
+    #sliderMobile{
+        width: 100%;
+    }
+
+        
+    #owl-mobile{
+        width: 100%;
+    }
+
+    #owl-mobile .owl-nav{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 0px;
+    }
+
+    #owl-mobile .owl-nav button{}
+
+    #owl-mobile .owl-nav button span{
+        font-size: 55px;
+        line-height: 30px;
+    }
+
+    #owl-mobile .owl-nav button span:hover, #owl-mobile .owl-nav button span:focus, #owl-mobile .owl-nav button span:active{
+        outline: 0;
+        background: none;
+        box-shadow: none;
+        color: #000;
+    }
+
+    #owl-mobile .owl-nav button:hover, #owl-mobile .owl-nav button:focus, #owl-mobile .owl-nav button:active{
+        outline: 0;
+        background: none;
+        box-shadow: none;
+    }
+
+    #owl-mobile .owl-dots{
+        display: none;
+    }
+
+    .trend-products{
+        padding: 0px 0px 20px 0px;
+    }
+    
+    #owl-category .owl-nav{
+        display: none;
+    }
+
+    #best-seller{
+        display: none;
+    }
+
+    #bank-card{
+        display: none;
+    }
+
+    #owl-editorial .owl-nav{
+        display: none;
+    }
+
+    #owl-editorial .owl-item{
+        width: 275px !important;
+    }
+
+    #all-category{
+        display: none;
+    }
+
+    #banner{
+        display: none;
+    }
+
+    #sellermobile{
+        width: 100%;
+        background-color: #f9f9f9;
+        padding: 10px 0px;
+    }
+
+
+    #owl-weekly .owl-dots{
+        
+    padding-top: 2em;
+    }
+
+    #owl-weekly .owl-dots .owl-dot.active span, #owl-weekly .owl-dots .owl-dot:hover span{
+        background: #ff6100;
+    }
+
+    #owl-weekly .owl-dots .owl-dot span {
+        background: #fff0;
+        border: 1px solid #ff6100;
+    }
+
+
+    #owl-weekly .owl-dots button span:hover, #owl-weekly .owl-dots button span:focus, #owl-weekly .owl-dots button span:active{
+        outline: 0;
+        background: none;
+        box-shadow: none;
+        color: #000;
+    }
+
+    #owl-weekly .owl-dots button:hover, #owl-weekly .owl-dots button:focus, #owl-weekly .owl-dots button:active{
+        outline: 0;
+        background: none;
+        box-shadow: none;
+    }
+
+    #owl-weekly .owl-nav{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: -2em;
+        display: none;
+    }
+
+    #owl-weekly .owl-nav button.owl-prev{
+        left: -25px;
+        position: absolute;
+    }
+
+    #owl-weekly .owl-nav button.owl-next{
+        right: -25px;
+        position: absolute;
+    }
+
+    #owl-weekly .owl-nav button span{
+        font-size: 55px;
+        line-height: 0px;
+    }
+
+    #owl-weekly .owl-nav button span:hover, #owl-weekly .owl-nav button span:focus, #owl-weekly .owl-nav button span:active{
+        outline: 0;
+        background: none;
+        box-shadow: none;
+        color: #000;
+    }
+
+    #owl-weekly .owl-nav button:hover, #owl-weekly .owl-nav button:focus, #owl-weekly .owl-nav button:active{
+        outline: 0;
+        background: none;
+        box-shadow: none;
+    }
+
+    .seller-list{
+        padding:0px
+    }
+
+    .mobmt20{
+        margin-top: 20px !important;
+    }
+
+    .mobile-flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 4em;
+    }
+
+    .footer-desc img{
+        margin: 0 auto;
+    }
+
+    .footer-desc p{
+        display: none;
+    }
+
+    .subscribe {
+        margin-bottom: 10px;
+        margin-top: 10px;
+        text-align: center;
+        font-weight: 600;
+        font-size: 14px;
+    }
+
+    .copyright-payments {
+        flex-direction: column;
+    }
+
+    #mobileFooter{
+        width: 100%;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        background-color: white;    
+        border-top: 1px solid #cecece;
+        padding-top: 5px;
+        color: white;
+        text-align: center;
+        z-index: 999999;
+    }
+
+    .sideFixed{
+        
+    }
+
+    .fixed-menu{
+        width: 100%;
+    }
+
+    .fixed-menu ul{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .fixed-menu ul li{
+        display: flex;
+    }
+
+    .fixed-menu ul li a{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .fixed-menu ul li a i{
+        font-weight: 600;
+        font-size: 18px;
+        color: #333;
+    }
+
+    .fixed-menu ul li a{
+        font-weight: 400;
+        font-size: 13px;
+        position: relative;
+    }
+
+    .fixed-menu ul li a .price{
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        background: #ff6100;
+        border-radius: 50%;
+        top: 0;
+        right: 5px;
+        color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 0;
+        padding: 0;
+    }
+
+    #backtotop {
+        bottom: 60px;
+        right: 20px;
+    }
+
+    .modal-dialog.video {
+        max-width: 360px;
+    }
+
+    .iframevideo{
+        width: 310px;
+    }
+        
+    #mySidenav{
+        z-index: 99999999;
+    }
+
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+        background-color: #111;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 60px;
+    }
+    
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #818181;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    .sidenav a:hover {
+        color: #f1f1f1;
+    }
+    
+    .sidenav .closebtn {
+        position: relative;
+        font-size: 34px;
+        line-height: 21px;
+        height: 100%;
+        display: flex;
+        text-align: center;
+        padding-left: 0;
+        background: no-repeat;
+    }
+    
+    #main {
+        transition: margin-left .5s;
+        padding: 13px;
+        border-bottom: 1px solid #cecece;
+        width: 100%;
+        position: fixed;
+        left: 0;
+        top: 0;
+        background-color: white;    
+        text-align: center;
+        z-index: 999999;
+    }
+
+    .mobile-search{
+        width: 100%;
+        margin-top: 3.9em;
+        background: #ebe9ea;
+        padding: 6px;
+    }
+
+    #aboutus{
+        margin-bottom: 4em;
+    }
+
+    .mainfixed{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .header-search-area form{
+        position: relative;
+    }
+    .sidenavMobile{
+        
+    }
+
+    .sidemenubar{
+        display: flex;
+        align-items: center;
+    }
+
+    .mobilelogo{
+        margin-left: 1em;
+    }
+
+    .mobilelogo img{
+        width: 150px;
+    }
+
+    .basket{
+        
+    display: flex;
+            
+    flex: 1;
+            
+    justify-content: flex-end;
+    }
+
+    .basket a{
+        position: relative;
+    }
+
+    .basket a i{
+            
+    font-weight: 600;
+            
+    font-size: 18px;
+            
+    color: #333;
+            
+    padding-right: 10px;
+    }
+
+    .basket a .price{
+        position: absolute;
+        width: 16px;
+        height: 16px;
+        background: #ff6100;
+        border-radius: 50%;
+        top: 0;
+        right: 1px;
+        color: white;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 0;
+        padding: 0;
+    }
+
+    .flaticon-menu{
+        font-weight: 600;
+        font-size: 16px;
+    }
+
+    .sideHead{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 0px 10px;
+    }
+
+    .sideHead img{
+        position: relative;
+    }
+
+    .sideHead form{
+        border-left: 1px solid #ebe9ea;
+        width: 100%;
+        padding: 0 10px 0 10px;
+        margin: 0 10px;
+    }
+
+    .sideHead form .search{
+    right: 60px;
+    top: 14px;
+    }
+
+    .sideHead form input{
+        font-size: 12px;
+        border-radius: 5px;
+        margin: 0;
+        border: 1px solid #ececec;
+        height: 37px;
+    }
+
+    .backto{
+
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: space-between;
+
+    padding: 1em 2em;
+
+    }
+
+    .backto a{
+
+    width: 100%;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    }
+
+    .backto a img{
+
+    position: absolute;
+
+    right: 15px;
+
+    top: -7px;
+
+    width: 50px;
+
+    opacity: .4;
+
+    }
+
+    .sidebar-new{
+
+    width: 100%;
+
+    display: flex;
+
+    margin-bottom: 10px;
+
+    }
+
+    .sidebar-new img{
+            
+        width: 100%;
+    }
+
+    .mobile-menu-cat{
+        width: 100%;
+        padding: 1em 2em;
+    }
+
+    .mobile-menu-cat ul{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-menu-cat ul li{
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .mobile-menu-cat ul li a{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    
+    .mobile-menu-cat ul li a img{
+        max-height: 95px;
+    }
+
+    .allsettings{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .myaccount{
+
+    width: 100%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    }
+
+    .loginregister{
+        display: flex;
+        padding: 0 !important;
+        background: white !important;
+        align-items: center;
+    }
+
+    .loginregister a{
+        padding: 10px !important;
+    }
+
+    .myaccount div{
+
+    background-color: #eee;
+
+    color: #383838;
+
+    font-weight: 700;
+
+    padding: 11px 18px;
+
+    font-size: 14px;
+
+    }
+
+    .myaccount ul{
+
+    display: flex;
+
+    flex-direction: column;
+
+    }
+
+    .myaccount ul li{
+
+    width: 100%;
+
+    background: white;
+
+    }
+
+    .myaccount ul li a{
+
+    background: white;
+
+    color: #383838;
+
+    font-weight: 600;
+
+    font-size: 14px;
+
+    }
+
+    .myaccount ul li a i{
+
+    }
+
+    .social-media-side{
+
+    }
+
+    .social-media-side div{
+
+    background-color: #eee;
+
+    color: #383838;
+
+    font-weight: 700;
+
+    padding: 11px 18px;
+
+    font-size: 14px;
+
+    }
+
+    .social-media-side ul {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .social-media-side ul li{
+
+    background: white;
+
+    padding: 15px 0;
+
+    }
+
+    .social-media-side ul li a{
+
+    background: white;
+
+    font-size: 22px;
+
+    display: flex;
+
+    align-items: center;
+
+    }
+
+    .social-media-side ul li a i{
+
+    margin: 0;
+
+    padding: 0px;
+
+    line-height: 10px;
+
+    }
+
+
+}
+  
+@media screen and (max-width: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;margin: 0;background-color: #efefef;font-weight: 600;color: #555;font-size: 14px;padding: 10px 20px;position: relative;overflow: hidden;}
+}
